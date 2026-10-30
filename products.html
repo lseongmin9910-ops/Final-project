@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PRODUCTS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="index.html">SCENT ARCHIVE</a>
+
+      <nav>
+        <a href="index.html">HOME</a>
+        <a href="products.html">PRODUCTS</a>
+        <a href="guidebook.html">GUIDEBOOK</a>
+      </nav>
+      <a class="header-link" href="products.html">DISCOVER ↗</a>
+    </header>
+
+    <main>
+      <section class="collection-intro">
+        <p class="eyebrow">SCENT ARCHIVE · FINE FRAGRANCE</p>
+
+        <h1>OUR COLLECTION</h1>
+
+        <p class="collection-description">
+          나만의 분위기를 완성하는 향수를 만나보세요.
+        </p>
+      </section>
+
+      <section class="product-list">
+        <div class="product-card" id="botanical">
+          <img src="images/botanical.jpg" alt="BOTANICAL NO.01 향수" />
+          <h2>BOTANICAL NO.01</h2>
+          <p>Fresh & Green</p>
+        </div>
+
+        <div class="product-card" id="woodland">
+          <img src="images/woodland.jpg" alt="WOODLAND NO.02 향수" />
+          <h2>WOODLAND NO.02</h2>
+          <p>Warm & Woody</p>
+        </div>
+
+        <div class="product-card" id="bloom">
+          <img src="images/bloom.jpg" alt="BLOOM NO.03 향수" />
+          <h2>BLOOM NO.03</h2>
+          <p>Soft & Floral</p>
+        </div>
+
+        <div class="product-card" id="citrus">
+          <img src="images/citrus.jpg" alt="CITRUS NO.04 향수" />
+          <h2>CITRUS NO.04</h2>
+          <p>Fresh & Citrus</p>
+        </div>
+
+        <div class="product-card" id="moss">
+          <img src="images/moss.jpg" alt="MOSS NO.05 향수" />
+          <h2>MOSS NO.05</h2>
+          <p>Earthy & Green</p>
+        </div>
+
+        <div class="product-card" id="amber">
+          <img src="images/amber.jpg" alt="AMBER NO.06 향수" />
+          <h2>AMBER NO.06</h2>
+          <p>Warm & Sweet</p>
+        </div>
+
+        <div class="product-card" id="petal">
+          <img src="images/petal.jpg" alt="PETAL NO.07 향수" />
+          <h2>PETAL NO.07</h2>
+          <p>Soft & Floral</p>
+        </div>
+
+        <div class="product-card" id="cedar">
+          <img src="images/cedar.jpg" alt="CEDAR NO.08 향수" />
+          <h2>CEDAR NO.08</h2>
+          <p>Dry & Woody</p>
+        </div>
+      </section>
+
+      <div class="modal" id="product-modal">
+        <div class="modal-content">
+          <button id="close-modal">✕</button>
+
+          <div class="modal-product-image">
+            <img id="modal-image" src="images/1.jpg" alt="선택한 향수" />
+          </div>
+
+          <div class="modal-product-info">
+            <!-- 상품 이름 -->
+            <h2 id="modal-name">BOTANICAL NO.01</h2>
+
+            <!-- 가격 -->
+            <p id="modal-price">₩89,000</p>
+
+            <!-- 설명 -->
+            <div class="modal-description">
+              <h3>DESCRIPTION</h3>
+              <p id="modal-description">
+                싱그러운 초록 잎사귀와 촉촉한 자연의 향을 담았습니다. 베르가못의
+                산뜻한 첫 향을 시작으로 무화과의 부드러운 향이 이어지며,
+                머스크가 은은하게 남아 편안하고 깨끗한 분위기를 완성합니다.
+              </p>
+            </div>
+
+            <!-- 향 노트 -->
+            <div class="modal-notes">
+              <h3>SCENT NOTES</h3>
+              <p id="modal-top">TOP · Bergamot</p>
+              <p id="modal-middle">MIDDLE · Fig</p>
+              <p id="modal-base">BASE · Musk</p>
+            </div>
+
+            <!-- 용량 -->
+            <p class="modal-size">SIZE · 50ml</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
